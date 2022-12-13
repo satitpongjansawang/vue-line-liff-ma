@@ -2,7 +2,7 @@
   <div id="app">
     <img :src="profile.pictureUrl" width="60" height="60">
     {{ profile.displayName }}
-    {{ profile.statusMessage }}
+    <p>my sage {{ profile.statusMessage }}</p>
   </div>
 </template>
 
